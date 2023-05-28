@@ -1,8 +1,31 @@
 body {
-  padding: 50px;
   font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+  margin: 0;
+  height: 100vh;
+}
+
+.container {
+  padding: 20px;
 }
 
 a {
   color: #00B7FF;
 }
+
+.sidebar-nav {
+  margin-top: 20px;
+  padding: 0;
+  list-style: none;
+}
+
+.sticky-footer {
+  background-color: rgb(57, 57, 255);
+  color: white;
+  bottom: 0;
+  position: absolute;
+  width: 100%;
+  margin: 0;
+  padding: 20px;
+  text-align: center;
+}
+
