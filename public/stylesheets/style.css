@@ -6,6 +6,7 @@ body {
 
 .container {
   padding: 20px;
+  height: calc(100% - 50px);
 }
 
 a {
@@ -21,11 +22,15 @@ a {
 .sticky-footer {
   background-color: rgb(57, 57, 255);
   color: white;
-  bottom: 0;
-  position: absolute;
   width: 100%;
+  height: 50px;
   margin: 0;
-  padding: 20px;
-  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.sticky-footer p {
+  margin: 0;
 }
 
